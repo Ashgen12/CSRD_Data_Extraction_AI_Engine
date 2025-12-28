@@ -4,13 +4,21 @@ An AI-powered extraction engine for automatically extracting structured sustaina
 
 ## 🎯 Results
 
-**Overall Accuracy: 81.7%** (49/60 indicators extracted)
+**Overall Accuracy: 83.3%** (50/60 indicators extracted)
 
 | Bank | Extracted | Accuracy |
 |------|-----------|----------|
 | AIB  | 17/20     | 85%      |
-| BBVA | 18/20     | 90%      |
+| BBVA | 19/20     | 95%      |
 | BPCE | 14/20     | 70%      |
+
+## 📸 Demo Screenshots
+
+### Dashboard View
+![Dashboard](docs/demo_dashboard.png)
+
+### Extraction Results
+![Results](docs/demo_results.png)
 
 ## 📊 Key Features
 
@@ -20,6 +28,7 @@ An AI-powered extraction engine for automatically extracting structured sustaina
 - ✅ **Web UI** - FastAPI dashboard with real-time WebSocket updates
 - ✅ **Download CSV** - Export results directly from the UI
 - ✅ **PostgreSQL** - Structured data storage
+
 
 ## 🚀 Quick Start (Fresh Installation)
 
