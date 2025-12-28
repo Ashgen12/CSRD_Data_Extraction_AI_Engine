@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: csrd_postgres
+    environment:
+      POSTGRES_USER: csrd_user
+      POSTGRES_PASSWORD: csrd_secure_pass
+      POSTGRES_DB: csrd_reports
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U csrd_user -d csrd_reports"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

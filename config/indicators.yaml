@@ -1,0 +1,306 @@
+# CSRD Data Extraction Engine - ESG Indicators Configuration
+# 20 indicators across Environmental, Social, and Governance categories
+
+indicators:
+  environmental:
+    - id: E1
+      name: "Scope 1 GHG Emissions"
+      unit: "tCO₂e"
+      description: "Direct greenhouse gas emissions from owned or controlled sources"
+      esrs_reference: "ESRS E1-6"
+      validation:
+        min: 0
+        max: 100000000
+      keywords:
+        - "scope 1"
+        - "direct emissions"
+        - "GHG emissions"
+        - "greenhouse gas"
+
+    - id: E2
+      name: "Scope 2 GHG Emissions"
+      unit: "tCO₂e"
+      description: "Indirect emissions from purchased electricity, steam, heating, and cooling"
+      esrs_reference: "ESRS E1-6"
+      validation:
+        min: 0
+        max: 100000000
+      keywords:
+        - "scope 2"
+        - "indirect emissions"
+        - "purchased electricity"
+        - "location-based"
+        - "market-based"
+
+    - id: E3
+      name: "Scope 3 GHG Emissions"
+      unit: "tCO₂e"
+      description: "All other indirect emissions in the value chain"
+      esrs_reference: "ESRS E1-6"
+      validation:
+        min: 0
+        max: 1000000000
+      keywords:
+        - "scope 3"
+        - "value chain"
+        - "financed emissions"
+        - "upstream"
+        - "downstream"
+
+    - id: E4
+      name: "GHG Emissions Intensity"
+      unit: "tCO₂e/€M revenue"
+      description: "Normalized emissions per million euros of revenue"
+      esrs_reference: "ESRS E1-6"
+      validation:
+        min: 0
+        max: 10000
+      keywords:
+        - "emissions intensity"
+        - "carbon intensity"
+        - "per revenue"
+
+    - id: E5
+      name: "Total Energy Consumption"
+      unit: "MWh"
+      description: "Total energy consumed from all sources"
+      esrs_reference: "ESRS E1-5"
+      validation:
+        min: 0
+        max: 100000000
+      keywords:
+        - "energy consumption"
+        - "total energy"
+        - "electricity"
+        - "fuel"
+
+    - id: E6
+      name: "Renewable Energy Percentage"
+      unit: "%"
+      description: "Share of renewable energy in total consumption"
+      esrs_reference: "ESRS E1-5"
+      validation:
+        min: 0
+        max: 100
+      keywords:
+        - "renewable energy"
+        - "green energy"
+        - "solar"
+        - "wind"
+
+    - id: E7
+      name: "Net Zero Target Year"
+      unit: "year"
+      description: "Committed year for achieving net zero emissions"
+      esrs_reference: "ESRS E1-4"
+      validation:
+        min: 2024
+        max: 2100
+      keywords:
+        - "net zero"
+        - "carbon neutral"
+        - "climate target"
+        - "decarbonization"
+
+    - id: E8
+      name: "Green Financing Volume"
+      unit: "€M"
+      description: "Total volume of sustainable loans and green bonds"
+      esrs_reference: "ESRS E1"
+      validation:
+        min: 0
+        max: 1000000000
+      keywords:
+        - "green financing"
+        - "sustainable finance"
+        - "green bonds"
+        - "sustainable lending"
+
+  social:
+    - id: S1
+      name: "Total Employees"
+      unit: "FTE"
+      description: "Total number of full-time equivalent employees"
+      esrs_reference: "ESRS S1-6"
+      validation:
+        min: 0
+        max: 1000000
+      keywords:
+        - "total employees"
+        - "workforce"
+        - "headcount"
+        - "FTE"
+
+    - id: S2
+      name: "Female Employees Percentage"
+      unit: "%"
+      description: "Percentage of female employees in total workforce"
+      esrs_reference: "ESRS S1-9"
+      validation:
+        min: 0
+        max: 100
+      keywords:
+        - "female employees"
+        - "women"
+        - "gender diversity"
+        - "workforce composition"
+
+    - id: S3
+      name: "Gender Pay Gap"
+      unit: "%"
+      description: "Mean difference in pay between male and female employees"
+      esrs_reference: "ESRS S1-16"
+      validation:
+        min: -100
+        max: 100
+      keywords:
+        - "gender pay gap"
+        - "pay equity"
+        - "wage gap"
+        - "equal pay"
+
+    - id: S4
+      name: "Training Hours per Employee"
+      unit: "hours"
+      description: "Average training hours provided per employee per year"
+      esrs_reference: "ESRS S1-13"
+      validation:
+        min: 0
+        max: 1000
+      keywords:
+        - "training hours"
+        - "learning"
+        - "development"
+        - "L&D"
+
+    - id: S5
+      name: "Employee Turnover Rate"
+      unit: "%"
+      description: "Annual voluntary and involuntary turnover rate"
+      esrs_reference: "ESRS S1-6"
+      validation:
+        min: 0
+        max: 100
+      keywords:
+        - "turnover"
+        - "attrition"
+        - "employee retention"
+        - "leavers"
+
+    - id: S6
+      name: "Work-Related Accidents"
+      unit: "count"
+      description: "Number of work-related accidents or injuries"
+      esrs_reference: "ESRS S1-14"
+      validation:
+        min: 0
+        max: 100000
+      keywords:
+        - "accidents"
+        - "injuries"
+        - "safety incidents"
+        - "occupational health"
+
+    - id: S7
+      name: "Collective Bargaining Coverage"
+      unit: "%"
+      description: "Percentage of employees covered by collective bargaining agreements"
+      esrs_reference: "ESRS S1-8"
+      validation:
+        min: 0
+        max: 100
+      keywords:
+        - "collective bargaining"
+        - "union"
+        - "labor agreements"
+        - "worker representation"
+
+  governance:
+    - id: G1
+      name: "Board Female Representation"
+      unit: "%"
+      description: "Percentage of female members on the board of directors"
+      esrs_reference: "ESRS 2 GOV-1"
+      validation:
+        min: 0
+        max: 100
+      keywords:
+        - "board diversity"
+        - "female directors"
+        - "women on board"
+        - "governance diversity"
+
+    - id: G2
+      name: "Board Meetings per Year"
+      unit: "count"
+      description: "Number of board meetings held during the year"
+      esrs_reference: "ESRS 2 GOV-1"
+      validation:
+        min: 0
+        max: 100
+      keywords:
+        - "board meetings"
+        - "governance meetings"
+        - "board activities"
+
+    - id: G3
+      name: "Corruption Incidents"
+      unit: "count"
+      description: "Number of confirmed corruption or bribery incidents"
+      esrs_reference: "ESRS G1-4"
+      validation:
+        min: 0
+        max: 1000
+      keywords:
+        - "corruption"
+        - "bribery"
+        - "misconduct"
+        - "ethics violations"
+
+    - id: G4
+      name: "Average Supplier Payment Days"
+      unit: "days"
+      description: "Average number of days to pay suppliers"
+      esrs_reference: "ESRS G1-6"
+      validation:
+        min: 0
+        max: 365
+      keywords:
+        - "payment terms"
+        - "supplier payment"
+        - "days payable"
+        - "DPO"
+
+    - id: G5
+      name: "Suppliers Screened for ESG"
+      unit: "%"
+      description: "Percentage of suppliers screened using ESG criteria"
+      esrs_reference: "ESRS G1-2"
+      validation:
+        min: 0
+        max: 100
+      keywords:
+        - "supplier screening"
+        - "ESG assessment"
+        - "supply chain"
+        - "vendor assessment"
+
+# Bank-specific configuration
+banks:
+  - name: "AIB"
+    full_name: "Allied Irish Banks"
+    report_year: 2024
+    pdf_filename: "aib_2024.pdf"
+    country: "Ireland"
+
+  - name: "BBVA"
+    full_name: "Banco Bilbao Vizcaya Argentaria"
+    report_year: 2024
+    pdf_filename: "bbva_2024.pdf"
+    country: "Spain"
+
+  - name: "BPCE"
+    full_name: "Groupe BPCE"
+    report_year: 2024
+    pdf_filename: "bpce_2024.pdf"
+    country: "France"

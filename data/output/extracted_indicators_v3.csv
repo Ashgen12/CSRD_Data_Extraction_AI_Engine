@@ -1,0 +1,264 @@
+company,report_year,indicator_id,indicator_name,value,unit,confidence_score,source_page,notes
+AIB,2024,E1,Scope 1 GHG Emissions,,tCO2e,0.0,,LLM extraction failed
+AIB,2024,E2,Scope 2 GHG Emissions,813.0,tCO2e,1.0,78,"Found in Table 1 under 'Scope 2 GHG emissions' row, specifically 'Gross market-based Scope 2 GHG emissions (tCOe) 2', in the column for '2024'. Market-based is preferred as per Critical Extraction Rule 4."
+AIB,2024,E3,Scope 3 GHG Emissions,1067519.0,tCO2e,1.0,78,Value found in Table 1 under 'Total gross indirect (Scope 3) GHG emissions' for 2024. This value is identical to 'Category 15 - Investments (Financed Emissions)'. Notes on page 79 and 81 confirm that Category 15 is the only significant Scope 3 category reported for FY2024.
+AIB,2024,E4,GHG Emissions Intensity,40.0,tCO2e/EUR M revenue,0.85,75,"Regex extraction: nanced emissions reduction targets is tracking in the right direction versus the 2021 baseline: |  |
+
+**Table 2:**
+| Residential Mortgages: Emissions Intensity kgCOe/m2 2 AIB – projected – IEA 2021 NZ"
+AIB,2024,E5,Total Energy Consumption,33028.0,MWh,1.0,77,
+AIB,2024,E6,Renewable Energy Percentage,84.0,%,0.85,77,"Regex extraction: o. Wexford. Construction
+began swiftly and the first solar farm started
+energisation in February 2024.
+
+
+These two solar farms will deliver certified
+renewable energy to the Group. In 2024, 84%
+of AIB"
+AIB,2024,E7,Net Zero Target Year,2030.0,year,0.85,48,"Regex extraction: ities, recognising
+that significant investments are required globally
+to finance the green transition.
+
+
+Our ambition is for our own operations to
+be Net Zero by 2030 and for our lending
+portfolio to "
+AIB,2024,E8,Green Financing Volume,5100.0,EUR M,1.0,73,"Value explicitly stated as 'Amount of new lending for Climate Action Fund in 2024' in a table on page 73, and confirmed on page 74 as '€5.1bn of green lending' for 2024. Converted from €5.1bn to 5100 EUR M."
+AIB,2024,S1,Total Employees,10655.0,FTE,0.85,347,"Regex extraction: age number of staff (Full time equivalents)** **2024** 2023
+
+Ireland **9,902** 9,485
+
+United Kingdom **718** 681
+
+United States of America **35** 34
+
+**Total** **10,655** 10,200
+
+
+The following table "
+AIB,2024,S2,Female Employees Percentage,43.0,%,0.85,92,"Regex extraction: f Board 40% Target: 40% |  |
+
+**Table 2:**
+| AIB’s Exco Gender Diversity | 2024 |
+| --- | --- |
+| Number of females | 6 |
+| Number of males | 8 |
+| % females | 43% |
+| % males | 57% |
+| AIB’s Age Dive"
+AIB,2024,S3,Gender Pay Gap,17.8,%,0.85,93,"Regex extraction: page 94). The
+Board figure refers to the AIB Group Board.
+
+
+
+
+**[Extracted Tables]**
+
+
+**Table 1:**
+|  | Gender Pay Gap |
+| --- | --- |
+| ROI gender pay gap (2024) 17.8% UK gender pay gap (2024) 27% |"
+AIB,2024,S4,Training Hours per Employee,31.0,hours,1.0,94,"Value extracted from 'Table 1' on page 94, under the row 'Average training hours per employee' for 'All' employees in the '2024' column."
+AIB,2024,S5,Employee Turnover Rate,12.6,%,0.85,95,"Regex extraction: mployees | 507 46 1 | 554 |
+
+**Table 3:**
+| Employee Turnover | 2024 |
+| --- | --- |
+| Number of employees who have left | 1,265 |
+| Rate of employee turnover2 | 12.6% |"
+AIB,2024,S6,Work-Related Accidents,,count,0.95,116,"The report explicitly states 'N/A' for ESRS S1-14, which covers 'Number of fatalities and number and rate of work-related accidents' for 2024, indicating the data is not provided."
+AIB,2024,S7,Collective Bargaining Coverage,,%,0.0,,"The document mentions 'union representatives' on page 159, indicating engagement with unions on remuneration matters. However, no specific percentage for 'Collective Bargaining Coverage' for 2024 or any other year is provided in the document. The indicator was not found."
+AIB,2024,G1,Board Female Representation,40.0,%,0.85,125,"Regex extraction: in 2023/2024: an increase on the prior year. |
+| --- | --- |
+| €18.5bn As at 4 March 2025, AIB Group has repaid € 18.5 bn to the Irish State. |  |
+| Board Diversity Policy Target Achieved 40% Female M"
+AIB,2024,G2,Board Meetings per Year,14.0,count,0.85,138,"Regex extraction: and the**
+**Division of Responsibilities** _**continued**_
+
+
+**Board and Committee Meetings and Attendance**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Board met on 14 occasions during 2024. The Chair a"
+AIB,2024,G3,Corruption Incidents,0.0,count,1.0,104,Value found in a table explicitly stating 'Incidents of corruption and bribery' as '0 Number of incidents in 2024'. This is further confirmed on page 105 under 'Incidents of corruption and bribery (G1-4)' which states 'There were 0 confirmed incidents in which we dismissed or disciplined our own workers for corruption or bribery incidents and 0 confirmed incidents where we terminated or did not renew contracts with business partners that were terminated or not renewed due to corruption or bribery violations.'
+AIB,2024,G4,Average Supplier Payment Days,28.0,days,1.0,114,"The average time that AIB takes to pay an invoice is explicitly stated as 28 days. The calculation is based on invoices received and paid up to January 16, 2025, which covers the 2024 period."
+AIB,2024,G5,Suppliers Screened for ESG,50.0,%,0.9,113,"On page 113, under 'Our policies' within the 'Management of Our Supplier Relationships' section, it states: 'In 2024, the number of suppliers who participated in reporting to the CDP was 65, which represented 50% of the AIB suppliers invited.' CDP reporting is a recognized form of environmental (ESG) assessment/screening for suppliers."
+BBVA,2024,E1,Scope 1 GHG Emissions,62672.0,tCO2e,0.85,354,"Regex extraction: |  | Base year | 2023 (2) | 2024 (3) | % 2024 / 2023 | 2025 2030 |  | Annual % target / base year |
+| Scope 1 GHG emissions |  |  |  |  |  |  |  |
+| Gross scope 1 GHG emissions (tCOeq) 2 | 62,672 39,8"
+BBVA,2024,E2,Scope 2 GHG Emissions,14001.0,tCO2e,0.85,357,"Regex extraction: e total waste generated minus the waste that is recycled. (7) Includes Scope 1 (fuels in facilities and vehicle fleet and refrigerant gases), Scope 2 market-based. (8) Includes IS0 14001, ISO 50001, L"
+BBVA,2024,E3,Scope 3 GHG Emissions,1346681.0,tCO2e,1.0,355,"Value found in the table 'GHG EMISSIONS BROKEN DOWN BY SCOPE 1, 2 AND 3 (EXCEPT FINANCED EMISSIONS) (BBVA GROUP)' under the row 'Total Gross indirect (Scope 3) GHG emissions (tCO2eq)' for the year 2024. The unit tCO2eq is equivalent to tCO2e. The table explicitly excludes financed emissions, indicating this is the operational Scope 3."
+BBVA,2024,E4,GHG Emissions Intensity,139.0,tCO2e/EUR M revenue,0.85,326,"Regex extraction: granted financing weighted by its associated electricity generated percentage based on its activity.
+
+
+**Performance in 2024**
+
+
+The carbon emissions intensity of the Power generation portfolio was 13"
+BBVA,2024,E5,Total Energy Consumption,707582.0,MWh,1.0,353,"Found 'Total energy consumption (MWh)' in the 'ENERGY CONSUMPTION AND MIX (BBVA GROUP)' table for the year 2024. The value is 707,582 MWh."
+BBVA,2024,E6,Renewable Energy Percentage,89.0,%,0.85,353,"Regex extraction: ot used as fuel (MWh) Total renewable energy consumption (MWh) | — — |
+|  | — — |
+|  | 602,071 638,408 |
+|  | — — |
+|  | 602,071 638,408 |
+| Share of renewable sources in total energy consumption (%) "
+BBVA,2024,E7,Net Zero Target Year,2050.0,year,0.85,290,"Regex extraction: zed in the channeling metrics. For more information on these plans, see the section “Evolution of the sustainable
+business channeling”.
+
+
+**Achieving net zero emissions by 2050**
+
+
+BBVA has defined a "
+BBVA,2024,E8,Green Financing Volume,99000.0,EUR M,1.0,453,"Found under '1.2. STRATEGY ALIGNMENT' section: 'BBVA aims to reach 300 billion euros of channeled sustainable business (2018-2025) having reached the figure of 304 billion by December 31, 2024, around 99 billion in the year.' The '99 billion in the year' refers to the 2024 volume of channeled sustainable business. Converted 99 billion EUR to 99,000 EUR M."
+BBVA,2024,S1,Total Employees,125916.0,FTE,1.0,206,"Value extracted from the table 'The breakdown of the number of employees in the BBVA Group as of December 31, 2024, 2023 and 2022 by category and gender'. The total for 2024 is the sum of Male (60,999) and Female (64,917) employees, which equals 125,916. This value is consistently confirmed across multiple tables on pages 397, 398, and 400."
+BBVA,2024,S2,Female Employees Percentage,35.4,%,0.85,273,"Regex extraction: firm in its commitment to inclusion and diversity as a source of value creation, as demonstrated by the **positive**
+**evolution of the percentage of women in management positions** (35.4% as of Decem"
+BBVA,2024,S3,Gender Pay Gap,23.0,%,0.95,386,"Gross pay gap (Median) for BBVA Group in 2024. This is considered the unadjusted gender pay gap, aligning with ESRS S1-16. Median value is chosen for statistical robustness, as indicated by the report's own commentary on the adjusted pay gap calculation."
+BBVA,2024,S4,Training Hours per Employee,53.4,hours,1.0,382,Value explicitly found in the 'BASIC TRAINING DATA (BBVA GROUP)' table for 'Hours of training per employee' under the '2024' column.
+BBVA,2024,S5,Employee Turnover Rate,11.5,%,1.0,404,"Value explicitly stated in the 'TOTAL TURNOVER RATE AND DISTRIBUTION BY GENDER' table for 'Total employee turnover rate' under the '2024' column, in the 'Total' row."
+BBVA,2024,S6,Work-Related Accidents,2.0,count,0.85,395,"Regex extraction: |  |  |  |
+| --- | --- | --- | --- | --- |
+|  |  | 2024 |  | 2023 (1) |
+|  | Total Male Female Total Male Female |  |  |  |
+| Number of occupational accidents with medical leave (excluding in itinere)"
+BBVA,2024,S7,Collective Bargaining Coverage,43.0,%,1.0,393,"The text states: 'At the Group, 43% of workers are subject to the provisions of the various collective agreements and conventions'. This is a direct measure of collective bargaining coverage for the entire Group, found within the 'Labor rights' section, which is confirmed as the source for 'Collective bargaining coverage and social dialogue' (S1-8) on page 480."
+BBVA,2024,G1,Board Female Representation,46.7,%,1.0,392,Value explicitly stated in the table 'REPRESENTATION OF WOMEN IN BBVA GROUP (PERCENTAGE %)' under 'Women in the Board of Directors' for 2024. Confirmed by text on page 301 stating 'BBVA’s Board of Directors comprises 46.66% women' for 2024.
+BBVA,2024,G2,Board Meetings per Year,,count,0.0,,"The number of meetings for the main Board of Directors for 2024 was not found in the provided document content. Mentions of meetings were for specific committees (e.g., 'tax compliance body' held 3 meetings, 'CRC' held 23 meetings, 'Technology and Cybersecurity Committee' meets every two months), but not for the overarching Board of Directors."
+BBVA,2024,G3,Corruption Incidents,3.0,count,0.85,427,"Regex extraction: vernance information**
+
+
+_**4.1 Business conduct**_
+
+
+_**4.1.1 Corporate culture and Code of Conduct**_
+
+
+_**4.1.2 Whistleblowing Channel**_
+
+
+_**4.1.3 Corruption and bribery**_
+
+
+_**4.1.4 Anti-money "
+BBVA,2024,G4,Average Supplier Payment Days,28.0,days,1.0,206,"The table 'Payments made and pending payments (Millions of Euros)' on page 206 explicitly lists 'Average payment period to third parties (days)' as 28 for 2024. The text below the table clarifies that 'payments to suppliers' are referred to, confirming 'third parties' means suppliers."
+BBVA,2024,G5,Suppliers Screened for ESG,,%,0.0,,LLM extraction failed
+BPCE,2024,E1,Scope 1 GHG Emissions,21330.0,tCO2e,0.85,141,"Regex extraction: g the carbon footprint of its
+investments.
+
+
+
+www.groupebpce.com 2024 Universal registration document 139
+
+
+
+
+**[Extracted Tables]**
+
+
+**Table 1:**
+| Gross Scope 1 GHG emissions - Emissions [tCOeq] 12"
+BPCE,2024,E2,Scope 2 GHG Emissions,843.0,tCO2e,0.95,316,Value extracted from the table under 'Scope 2 GHG emissions' for 12/31/2024. The document indicates two methodologies were used for 2024 data; this value is assumed to be from the 'new methodology' which is described as having 'greater degree of precision' and is used for the '2023-2026 reduction trajectory'. Market-based emissions are preferred over location-based.
+BPCE,2024,E3,Scope 3 GHG Emissions,505207.0,tCO2e,0.85,141,"Regex extraction: | --- | --- |
+| Gross Scope 2 GHG emissions (market- based) [tCOeq] 12/31/2024 5,158 2 | 4,922 | (5%) (10.5%) (30.5%) (3.5%) (3.5%) |
+
+**Table 3:**
+| Total gross indirect Scope 3 GHG emissions [tCOeq]"
+BPCE,2024,E4,GHG Emissions Intensity,6.0,tCO2e/EUR M revenue,0.85,140,"Regex extraction: corporate values whose market
+fluctuations are independent of the bank’s climate strategy.
+
+
+Aluminum
+
+Groupe BPCE aims to achieve a financed carbon intensity of 6
+tCO2eq/t of aluminum by 2030. The 20"
+BPCE,2024,E5,Total Energy Consumption,,MWh,0.0,,"Total Energy Consumption for 2024 was not found in the provided pages. Page 117 mentions a '36% reduction' in energy consumption due to a specific real estate program, but not the absolute total energy consumption for the group for 2024."
+BPCE,2024,E6,Renewable Energy Percentage,17.0,%,0.85,42,"Regex extraction: on in 2023, BPCE Lease again
+recorded a significant increase in production of +5%. Several
+areas even outperformed, such as equipment leasing (+10%),
+renewable energy financing (+17%) and long-term le"
+BPCE,2024,E7,Net Zero Target Year,2050.0,year,0.85,115,"Regex extraction: possible to contribute to global carbon neutrality by 2050.
+
+
+To define its targets by sector, Groupe BPCE generally uses as a
+reference scenario the Net Zero Emissions by 2050 scenario (NZE
+2050 scen"
+BPCE,2024,E8,Green Financing Volume,16200.0,EUR M,0.9,121,"Extracted 'Total Group RE exposure (in billions of euros)' for 2024, which is 16.2 billion euros. Converted to EUR M (16.2 * 1000 = 16200). This represents financing related to renewable energy, a significant component of green financing, at the group level. While not explicitly named 'Green Financing Volume', it is the most comprehensive and clearly defined green financing-related volume found for the group for 2024."
+BPCE,2024,S1,Total Employees,101234.0,FTE,0.85,505,"Regex extraction: enses and on
+Corporate & Investment Banking (+8.4%) to support business
+growth.
+
+
+Groupe BPCE's headcount increased by +0.7% in relation to end
+2023, to 101,234 employees on December 31, 2024.
+
+
+Group"
+BPCE,2024,S2,Female Employees Percentage,44.5,%,0.85,151,"Regex extraction: place”.
+
+
+The composition of the own workers is a concrete illustration of
+the Group’s commitment and results:
+
+
+- the workforce is composed of 55.5% women and 44.5% men
+
+(figures available in 3.1.5.2"
+BPCE,2024,S3,Gender Pay Gap,,%,0.0,,"The indicator 'Gender Pay Gap' is explicitly defined on pages 179 and 331 under section 3.1.5.12 (S1-16) REMUNERATION METRICS (PAY GAP AND TOTAL REMUNERATION). Page 95 also references this indicator and section. However, the actual numerical value for the Gender Pay Gap for 2024 (or any year) is not provided in the extracted document content. The text mentions that 'two distinct metrics are presented' due to Natixis's different data presentation, but the metrics themselves are not shown."
+BPCE,2024,S4,Training Hours per Employee,,hours,0.0,,"The document provides 'Average number of training hours' for 'Group scope excluding Natixis' on page 175 (36 hours) and page 327 (18 hours). However, the instruction explicitly states 'Do NOT report subsidiary figures - look for GROUP-level totals'. The full BPCE Group employee count is 103,418 (page 168), while the employee counts associated with the partial scopes are 81,608 (page 176) and 34,087 (page 327). Data for the Natixis scope, which would be needed to calculate a full Group total, is referenced externally ('see 3.1.5.14.7 (S1-13) Training and skills development metrics - Natixis' or 'see Natixis CSRD publication') and is not available in the provided document snippets. Therefore, the Group-level total for this indicator for 2024 could not be found."
+BPCE,2024,S5,Employee Turnover Rate,,%,0.5,,"The indicator 'Employee Turnover Rate' is explicitly defined on pages 171 and 324, including its calculation method and the fact that it is published. However, the actual numerical value for 2024 (or any year) is not provided in the extracted document content. The pages only contain the definition and formula, not the data point itself."
+BPCE,2024,S6,Work-Related Accidents,1166.0,count,1.0,401,"Value explicitly stated: 'Within the Groupe BPCE scope, there were 1,166 workplace accidents with lost time in 2024'."
+BPCE,2024,S7,Collective Bargaining Coverage,,%,0.0,,"A group-level percentage for collective bargaining coverage is not explicitly provided as a single value. Page 325, under 'Declaration template on collective bargaining coverage and social dialog' for '12/31/2024', indicates that for France, the coverage rate is in the '80-100%' range. However, no consolidated figure for the entire group (including EEA and non-EEA employees, which are not quantified in the table) is given. The instruction specifies to look for GROUP-level totals and not report subsidiary figures."
+BPCE,2024,G1,Board Female Representation,47.06,%,1.0,417,"Value explicitly stated for the Supervisory Board as of December 31, 2024: 'At December 31, 2024, with eight women on its Supervisory Board out of a total of seventeen members, BPCE had a proportion of 47.06% women'."
+BPCE,2024,G2,Board Meetings per Year,11.0,count,1.0,16,"The 'Composition of the Supervisory Board' section on page 16 explicitly states '11 MEETINGS' for the Supervisory Board. This is confirmed by the attendance table on page 472, where the maximum number of Supervisory Board meetings attended by full-year members is 11."
+BPCE,2024,G3,Corruption Incidents,4.0,count,0.85,100,"Regex extraction: pliers 221
+
+
+G1-3 — Prevention and detection of corruption and bribery 4.1.1.5 (G1-3) Prevention and detection of corruption and bribery 223
+
+
+G1-4 — Incidents of corruption or bribery 4.1.2.1 (G1-4) "
+BPCE,2024,G4,Average Supplier Payment Days,30.0,days,0.85,879,"Regex extraction: cluded None
+
+
+**(C) Benchmark payment terms used (contractual or legal term – Article L. 441-6 or Article L. 443-1 of the French Commercial Code)**
+
+
+Payment terms used to calculate overdue payments -"
+BPCE,2024,G5,Suppliers Screened for ESG,,%,0.0,131,"The document states on page 131 under 'RESPONSIBLE PURCHASING': 'Lastly, the Group is working towards acquiring CSR scorings, complementing the CSR assessment questionnaires of its suppliers. This will be a major step forward in terms of supplier data reporting and standardization.' This indicates that a standardized, quantifiable reporting for 'Suppliers Screened for ESG' as a percentage is a future goal or an ongoing development, and a 2024 figure is not provided in the report."
